@@ -8,7 +8,7 @@ RED = "#e7305b"
 GREEN = "#9bdeac"
 YELLOW = "#f7f5dd"
 FONT_NAME = "Courier"
-WORK_MIN = 30
+WORK_MIN = 20
 SHORT_BREAK_MIN = 5
 LONG_BREAK_MIN = 20
 ASSETS_DIR = os.path.join(os.path.dirname(__file__), 'assets')
@@ -18,7 +18,7 @@ reps = 0
 timer = None
 work_sessions = 0
 is_paused = False
-remaining_time = 0
+remaining_time = 0              
 current_mode = ""
 
 class PomodoroTimer:
